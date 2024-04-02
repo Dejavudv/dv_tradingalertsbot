@@ -78,6 +78,7 @@ async def main():
         close_price = int(row['close']) 
         ema_50 = row['ema_50']
         ema_200 = row['ema_200']
+        
 
         # Check if ema_50 and ema_200 are not NaN
         if not pd.isna(ema_50) and not pd.isna(ema_200):
