@@ -4,7 +4,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from telegram import Bot
 import asyncio
+from keep_alive import keep_alive
 
+keep_alive()
 # Use TkAgg backend for opening plots in a separate window on Windows
 plt.switch_backend('TkAgg')
 
